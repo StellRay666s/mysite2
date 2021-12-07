@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    width: 100%;
+    background-color: #373A3C;
+    height: 60px;
+    display: flex;
+}
+.wrapper{
+    width: 1100px;
+    height: 60px;
+    display: flex;
+    margin:auto auto;
+    align-items: center;
+}
+.logo{
+    width: 96px;
+    height: 29px;
+}
+
+.menu-list{
+    width: 700px;
+display: flex;
+justify-content: flex-end;
+}
+.menu-list a{
+    margin-right: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.menu-list li{
+}
+
+.search input{
+    width: 209px;
+    height: 38px;
+    border-radius: 4px;
+}
+.myxbox a {
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.slider{
+    background:url("../media/Star-Wars-Battlefront-II-combat.png");
+    height: 648px;
+    width: 100%;
+    background-size: covr;
+    
+}
+.slider img{
+    width: 100%;
+}
+
+.best_value {
+   
+    width: 100%;
+    height: 865px;
+    background-color: #979797;
+    margin:0 auto;
+}
+.top_block_value {
+    width: 100%;
+}
+.logo2 {
+  width: 63px;
+  height: 64px;
+  margin: 0px auto; 
+  padding-top: 50px;
+  margin-bottom: 84px;
+}
+.tittle_Valee {
+    width: 313px;
+    height: 57px;
+    margin: auto;
+    font-size: 48px;
+    line-height: 56px;
+    color:  #FFFFFF;
+    text-align: center;
+}
+.text-value{
+    text-align: center;
+    width: 449px;
+    height: 43px;
+    margin: auto;
+    font-size: 36px;
+    line-height: 42px;
+    color:  #FFFFFF;    
+}
+.flex_block {
+    display: flex; 
+    justify-content: center;
+    margin: 0 -5px;
+    margin-top: 40px;
+}
+.item-block {
+    width: 320px;
+    height: 420px;
+    border: 1px solid black;
+    margin: 0 67px;
+    border: 1px solid #8DD83D; 
+    background-color: white;
+}
+
+.item-block img{
+    
+}
+.mixer{
+    margin: 0 auto;
+    width: 209px;
+    height: 61px;
+
+}
+.gold{
+    padding: auto;
+    width: 200px;
+    height: 113px;
+}
+.block_image_content{
+    width: 318px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_item_block
+{
+    display: grid;
+    grid-template-rows:40px 70px 110px;
+    height: 238px;
+    width: 320px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    
+}
+.item-block h3{
+
+}
+.item-block p{
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    line-height: 28px;
+}
+.content_item_block button{
+    width: 278px;
+    height: 60px;
+    background-color: #8DD83D;
+    border: 1px;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+.main_games_block{
+    position: absolute;
+    background-image: url("/media/Rectangle.png");
+    width: 100%;
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.flex_block2 {
+    display: flex;
+    width: 1100px;
+    margin: 150px auto;
+    justify-content: center;
+}
+.item_block2 {
+    width: 320px;
+    height: 420px;
+     border: 1px solid #8DD83D;
+    background-color: white;
+    margin: 0 10px;
+    
+}
+.img-game {
+}
+.img_content_block {
+    width: 320px;
+    height: 238px;
+    display: grid;
+    grid-template-rows: 40px 70px 110px ;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;  
+}
+.exlusiv_games_block{
+    background: url("../media/Rectangle.png");
+    width: 100%;
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8  );
+}
+.games_container_block{
+    width: 1328px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin:  120 auto;
+    align-items: flex-end;
+  
+
+}
+.games_card_block{
+    
+    width: 320px;
+    height: 420px;
+    background: white;
+    border: 1px solid #8DD83D;;
+    margin: 0 6px;
+}
+.img_game_continer{
+    
+
+}
+.img_game_continer img{
+    width: 318px;
+    height: 180px;
+}
+.game_tittle_text_container{
+    display: grid;
+    grid-template-rows: 40px 70px 110px;
+    align-items: center;
+    padding: 20px;
+}
+.tittle_block_games{
+    margin:0 auto;
+    padding-top: 100px;
+    color: white;
+    text-align:center;
+    width: 427px;
+    height: 43px;
+    font-size: 36px;
+    line-height: 42px;
+    
+    margin-bottom: 10px;
+}
+.game_tittle_text_container button{
+    width: 278px;
+    height: 60px;
+    background-color: #8DD83D;
+    border: 1px;
+    font-size: 16px;
+    line-height: 21px;
+}
+.xbox_store{
+    width: 207px;
+    height: 53px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border: 1px;
+    border-radius: 4px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.xbox_design_lab{
+
+    background: url("../media/lab.png");
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   ;
+}
+.box_lab_container{
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+    
+}
+.box_lab_container h2{
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.box_lab_container p{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+.button_group button{
+    border: 1px;
+    margin-top: 20px;
+}
+.button_group button:first-child {
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    width: 207px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.button_group button:last-child{
+    background: #8DD83D;
+    border-radius: 4px;
+    height: 60px;
+    width: 278px;
+    border-radius: 4px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    
+}
+.footer {
+      background:#373A3C; 
+      height: 415px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+}
+
+.columns_block {
+   
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    margin: 0 auto;
+    width: 1000px;
+    height: 300px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid white;
+  
+}
+.columns_block li{
+    line-height: 3;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.columns_block h4{
+    font-size: 18px;
+    line-height: 21px;
+
+color: #7DD42F;
+
+}
+.first_colunms {
+}
+.second-columns {
+}
+.third_columns {
+    height: 200px;
+     display: flexbox;
+     align-items: start;
+}
+.third_columns h4{
+    align-items: start;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 21px;
+
+color: #7DD42F;
+}
+.logo_network{
+    width: 91px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_network img:nth-child(1){
+    width: 11px;
+    height: 20px;
+}
+.logo_network img:nth-child(2){
+    width: 21px;
+    height: 18px;
+}
+.logo_network img:nth-child(3){
+    width: 19px;
+    height: 19px;
+}
+.line{
+    width: 1200px;
+    height: 2px;
+    margin: auto;
+    border: 1px solid #FFFFFF;
+}
+.div_country {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+}
+.country {
+    font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
+.microsoft {
+    font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
